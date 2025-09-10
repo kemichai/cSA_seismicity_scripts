@@ -1,0 +1,28 @@
+0	white	200	whitesmoke	L
+200	whitesmoke	400	gray92	L
+400	gray92	600	gray88	L
+600	gray88	800	gray84	L
+800	gray84	1000	gray80	L
+1000	gray80	1200	gray76	L
+1200	gray76	1400	gray72	L
+1400	gray72	1600	gray68	L
+1600	gray68	1800	gray64	L
+1800	gray64	2000	gray60	L
+2000	gray60	2200	gray56	L
+2200	gray56	2400	gray52	L
+2400	gray52	2600	gray48	L
+2600	gray48	2800	gray44	L
+2800	gray44	3000	gray40	L
+3000	gray40	3200	gray36	L
+3200	gray36	3400	gray32	L
+3400	gray32	3600	gray28	L
+3600	gray28	3800	gray24	L
+3800	gray24	4000	gray20	L
+4000	gray20	4200	gray16	L
+4200	gray16	4400	gray12	L
+4400	gray12	4600	gray8	L
+4600	gray8	4800	gray4	L
+4800	gray4	5000	black	B
+B	white
+F	black
+N	128

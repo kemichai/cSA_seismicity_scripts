@@ -1,10 +1,8 @@
 # GMT 6 Session common arguments shelf
 BEGIN GMT 6.3.0
-B	nsew
+B	x4f2x+lDepth (km)
 J	M
-JM	M1.5i
-R	165/180/-48/-34.
-X	0.01
-Y	7.23
-@L	28
+JM	M6i
+R	170/170.55/-43.7/-43.34
+@L	34
 END

@@ -7,7 +7,7 @@
 #######################################################################################################################
 # ------------------------------------------------------------------------------------------------------------------- #
 # Output name
-out=sesmic_network_map.eps
+out=FIG_1_map.eps
 gmt set FORMAT_GEO_MAP D
 gmt set FONT_ANNOT_PRIMARY Helvetica
 gmt set FONT_ANNOT_PRIMARY 10
@@ -18,9 +18,7 @@ gmt set MAP_FRAME_PEN 0.7p,black
 
 
 R=-R169/171/-44.2/-42.5r
-datadir="/data"
-topodir="/topo"
-topodir="/home/kmichailos/Desktop/topo"
+topodir="/path2grdfile"
 
 # Define the limits of the region
 north=-43.
@@ -74,7 +72,7 @@ awk '{print $1, $2}' ../flow_stations.txt |
     gmt psxy -R -J -Sc.2 -W1p -Ggray -O -K   >> $out
 
 # Plot limits of SAMBA network
-gmt psxy polygon.txt -R -J -W1.9,gray30,. -O -K  >> $out
+gmt psxy ../polygon.txt -R -J -W1.9,gray30,. -O -K  >> $out
 
 echo Plotting Lake names...
 gmt pstext -R -J -O -K  -F+f6p,Helvetica,dodgerblue+jBL+a0 -Gwhite >> $out << END
